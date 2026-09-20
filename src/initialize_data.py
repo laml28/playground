@@ -34,7 +34,6 @@ def create_wind_speed_data(
     Returns:
         pd.DataFrame: DataFrame with the values of wind speed in m/s. Index 'TS', columns ['WS'].
     """
-    a = 1/0
     # Define the start and end dates and create an empty dataframe with the correct hourly index
     ts_start = "2000-01-01 00:00:00"
     ts_end = (
